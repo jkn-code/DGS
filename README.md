@@ -1,5 +1,5 @@
 # dgs
-WebSocket game
+WebSocket html game
 
 ## Догонялки
 
