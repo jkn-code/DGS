@@ -3,4 +3,4 @@ WebSocket game
 
 ## Догонялки
 
-img
+![img](https://github.com/jkn-code/dgs/blob/main/qwe.gif?raw=true)
