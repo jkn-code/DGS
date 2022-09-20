@@ -1,0 +1,177 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #303841;
+    color: #9A9EA2;
+    font-family: Tahoma;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #9A9EA2;
+}
+
+.player name {
+    position: absolute;
+    top: -17px;
+    left: 0px;
+    width: 100px;
+    font-size: 12px;
+    white-space: nowrap;
+    /* text-align: left; */
+}
+
+#nameInp {
+    width: 150px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #6F747A;
+    color: #9A9EA2;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nameInp::placeholder {
+    color: #9A9EA2;
+}
+
+em {
+    color: transparent;
+    text-shadow: 0 0 0 #9A9EA2;
+    font-weight: normal;
+}
+
+.mapObj {
+    position: absolute;
+    background-color: #6F747A;
+}
+
+.mouse {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: none;
+}
+
+.btns {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding: 20px;
+    width: 80px;
+    /*border: 1px solid #fff;*/
+}
+
+.btns div {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.btns div:hover {
+    color: #dd3;
+}
+
+/* .infa {
+    position: absolute;
+    top: 570px;
+    left: 840px;
+} */
+
+#win {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid #f00; */
+    display: none;
+}
+
+.upper {
+    height: 40px;
+    /* border: 1px solid #0f0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pole {
+    /* border: 1px solid #00f; */
+    width: 820px;
+    height: 620px;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    opacity: 0.5;
+}
+
+#stata {
+    width: 100px;
+    text-align: right;
+}
+
+.btns p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infa {
+    padding: 0 10px;
+}
+
+.inn_logo img {
+    height: 30px;
+    padding: 0 10px;
+}
+
+
+.knp {
+    border: 1px solid #6F747A;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.knp:hover {
+    color: #dd3;
+    border: 1px solid #dd3;
+}
+
+#start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 200px;
+    text-align: center;
+    /* border: 1px solid #6F747A; */
+    height: 210px;
+}
+
+no {
+    color: black;
+}
+
+schPn {
+    position: absolute;
+    color: #000;
+    opacity: 0.7;
+    font-size: 8px;
+    bottom: 1px;
+    right: 2px;
+}
+

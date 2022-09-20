@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Догё</title>
+	<meta http-equiv='cache-control' content='no-cache, must-revalidate'>
+	<link rel="shortcut icon" href="dogon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="start">
+		<h1>Догё</h1>
+		<div class="knp" onclick="goPlay()">Играть</div>
+		<div class="knp" onclick="goView()">Смотреть</div>
+		<div id="conn">Подключение...</div>
+	</div>
+	<div id="win">
+		<div class="upper">
+			<div class="logo">Догё</div>
+			<div> Имя: <input type="text" name="name" id="nameInp" placeholder="Name"> </div>
+			<div class="infa">←↑→↓, wasd - движение. <br> Пробел - прятаться.</div>
+			<div id="stata"></div>
+			<div class="inn_logo"> <a href="/"><img src="inn_logo2.png" alt=""></a></div>
+		</div>
+		<div id="pole"></div>
+	</div>
+
+	<audio id="nov" src="nov.wav"></audio>
+	<audio id="lyapa" src="lyapa.wav"></audio>
+
+	<script type="text/javascript" src="client.js"></script>
+</body>
+
+</html>
